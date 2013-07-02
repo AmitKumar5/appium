@@ -1,0 +1,77 @@
+﻿Squashing 1
+Squashing Commits
+
+Squashing 2
+
+Use lower case adb.
+
+Use === not ==
+
+create ChromeAndroid device which subclasses Android
+
+move remote execute functionality into device common
+
+send commands to chrome as javascript atoms via remote debugger
+
+make chrome device proxy to chromedriver instead of using atoms
+
+add describeForChrome in driverBlock and add webview tests for chrome
+
+fix outstanding issue in doRequest so there's no empty body, misc cleanup
+
+use streams instead of data events for chromedriver subproc
+
+add comment about why we're doing dumb things with chromedriver
+
+add docs for mobile safari and mobile chrome
+
+update grunt docs
+
+remove unused remote debugger files
+
+clean up callback structure
+
+make sure to encode doRequest response to JSON if possible (fix #847)
+
+Fix undefined
+
+Squashing 1
+
+allow testsuite to take port from env so ios/android tests can run simultaneously
+
+make sure webview guinea pig runs on same port as appium
+
+make sure to discard series info here so it doesn't get passed on
+
+fix find element from element tests
+
+update test to use correct appium port
+
+Squashing
+
+make sure fruitstrap gets into build/ for npm releases (cc @snevesbarros)
+
+/session/:sessionId/element/:id/enabled should return a boolean value.
+
+Signed-off-by: Matt Isaacs <misaacs@gilt.com>
+
+Unneccessary
+
+Removing MonkeyPinch
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Author:    bootstraponline <code@bootstraponline.com>
+#
+# HEAD detached at 959a22c
+# You are currently rebasing branch 'Appium-Rotation' on '959a22c'.
+#   (all conflicts fixed: run "git rebase --continue")
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   CHANGELOG.txt
+#	modified:   android/adb.js
+#
+

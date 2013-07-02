@@ -1188,6 +1188,13 @@ ADB.prototype.startApp = function(cb) {
   logger.info("Starting app");
   this.requireDeviceId();
   this.requireApp();
+  // If the activity string doesn't start with '.' then
+  // consider it fully qualified. If it does, then
+<<<<<<< HEAD
+  // will be expanded to appPackage automagically by Android.
+=======
+  // will be expanded to appPackage automatically by Android.
+>>>>>>> 312861a... Fixes errors in adb.js
   var activityString = this.appActivity;
   var cmd = this.adbCmd + " shell am start -n " + this.appPackage + "/" +
             activityString;
